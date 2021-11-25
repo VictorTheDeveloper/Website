@@ -6,11 +6,17 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    
 }
 
 h1{
     font-family: sans;
     font-size: 3rem;
+    margin-left: 4rem;
+}
+
+h3{
+    margin-left: 4rem;
 }
 
 .tudo{
