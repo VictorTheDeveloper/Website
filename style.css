@@ -8,6 +8,21 @@
     text-decoration: none;
 }
 
+h1{
+    font-family: sans;
+    font-size: 3rem;
+}
+
+.tudo{
+    size: 100vh;
+}
+
+.foto img{
+    width: 50vh;
+    height: 50vh;
+    z-index: 9;
+}
+
 body{
     font-size: 16px;
 }
@@ -412,6 +427,7 @@ header{
     transform: translateY(0%);
     transition: transform 0.3s ease-in, opacity 0.3s ease-in;
     z-index: 0;
+    size: 100vh;
   }
   
   .music-container.play .music-info {
@@ -421,6 +437,7 @@ header{
   
   .music-info h4 {
     margin: 0;
+    
   }
   
   .progress-container {
@@ -430,6 +447,7 @@ header{
     margin: 10px 0;
     height: 4px;
     width: 100%;
+    size: 100vh;
   }
   
   .progress {
