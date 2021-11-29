@@ -13,10 +13,12 @@ h1{
     font-family: sans;
     font-size: 3rem;
     margin-left: 4rem;
+    text-align: center;
 }
 
 h3{
     margin-left: 4rem;
+    text-align: center;
 }
 
 .tudo{
@@ -24,9 +26,11 @@ h3{
 }
 
 .foto img{
-    width: 50vh;
-    height: 50vh;
+    width: 80vh;
+    height: 80vh;
     z-index: 9;
+    
+    
 }
 
 body{
@@ -462,4 +466,12 @@ header{
     height: 100%;
     width: 0%;
     transition: width 0.1s linear;
+  }
+
+
+  .foto{
+    padding: 30px;
+  }
+  .rodape{
+      text-align: center;
   }
